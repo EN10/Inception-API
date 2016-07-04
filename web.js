@@ -13,6 +13,7 @@ var cmd = 'python \
 --image_file image.jpg';
     exec(cmd, function(error, stdout, stderr) {
         res.end(stdout);
+        console.log(stdout);
     });
 });
 
