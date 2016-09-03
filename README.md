@@ -3,13 +3,13 @@ API for Google Tensorflow Inception Model
 
 requires tensorflow installed
 
-https://www.tensorflow.org/versions/r0.9/get_started/os_setup.html#pip-installation
+https://www.tensorflow.org/versions/master/get_started/os_setup.html#pip-installation
 
 git clone https://github.com/tensorflow/tensorflow.git
 
-npm install express
+npm install express (required to run web.js)
 
-url image as parameter of page url e.g.
+image url is a parameter of page url i.e.
 
 https://tf4poets-en10.c9users.io/?q=http://kingofwallpapers.com/images/images-169.jpg
 
