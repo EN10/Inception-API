@@ -1,6 +1,7 @@
-# inception-api
+# Inception-API
 API for Google Tensorflow Inception Model
 https://www.tensorflow.org/versions/master/tutorials/image_recognition/index.html
+https://research.googleblog.com/2016/08/improving-inception-and-image.html 
 
 requires tensorflow installed
 https://www.tensorflow.org/versions/master/get_started/os_setup.html#pip-installation
@@ -11,6 +12,10 @@ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorf
 sudo pip install --upgrade $TF_BINARY_URL
 
 git clone https://github.com/tensorflow/tensorflow.git
+
+Test with built-in image (/tmp/imagenet/cropped_panda.jpg)
+python tensorflow/tensorflow/models/image/imagenet/classify_image.py
+https://www.tensorflow.org/versions/master/tutorials/image_recognition/index.html
 
 npm install express 
 (required to run web.js)
