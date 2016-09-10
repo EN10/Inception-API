@@ -2,6 +2,11 @@
 API for Google Tensorflow Inception Model
 https://www.tensorflow.org/versions/master/tutorials/image_recognition/index.html
 
+Inception used 1.2 million images to train 1000 classes (of things to detect) and took 8 GPU's 2 weeks to train.
+Thankfully Google has released the trained model, which means it can be used after a few mins of setup.
+
+This example was built and tested on c9.io as they provide a free Ubuntu VM (docker container) with 512MB RAM and 2GB Disk.
+
 Install tensorflow using pip    
 https://www.tensorflow.org/versions/master/get_started/os_setup.html#pip-installation   
 sudo apt update     
@@ -13,7 +18,7 @@ sudo pip install --upgrade $TF_BINARY_URL
 Download (clone) git repo    
 git clone https://github.com/tensorflow/tensorflow.git
 
-Test with built-in image (/tmp/imagenet/cropped_panda.jpg)  
+Test it works using the built-in image (/tmp/imagenet/cropped_panda.jpg)  
 python tensorflow/tensorflow/models/image/imagenet/classify_image.py
 
 Enio's classify image from URL Node API   
@@ -26,5 +31,3 @@ https://inception-en10.c9users.io/?q=http://kingofwallpapers.com/images/images-1
 
 script executes this:
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/models/image/imagenet/classify_image.py
-
-This example was built on c9.io as they provide a free Ubuntu VM (docker container) with 512MB RAM and 2GB Disk
