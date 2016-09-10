@@ -26,3 +26,5 @@ https://inception-en10.c9users.io/?q=http://kingofwallpapers.com/images/images-1
 
 script executes this:
 https://github.com/tensorflow/tensorflow/blob/master/tensorflow/models/image/imagenet/classify_image.py
+
+This example was built on c9.io as they provide a free Ubuntu VM (docker container) with 512MB RAM and 2GB Disk
