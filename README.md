@@ -14,15 +14,17 @@ Paste the commands individually in to a Terminal:
 
     sudo apt update
     sudo apt install python-pip python-dev
-    sudo pip  install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.0.1-cp27-none-linux_x86_64.whl
+    sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.0.1-cp27-none-linux_x86_64.whl
 
 Download (clone) models git repo    
 
     git clone https://github.com/tensorflow/models.git
 
-Test it works using the built-in image (/tmp/imagenet/cropped_panda.jpg)  
+Test it works using the built-in image:  
 
     python models/tutorials/image/imagenet/classify_image.py
+    
+    cp /tmp/imagenet/cropped_panda.jpg cropped_panda.jpg
 
 Enio's classify image from URL Node API   
 
