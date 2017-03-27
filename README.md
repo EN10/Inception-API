@@ -11,6 +11,7 @@ Install tensorflow using pip
 https://www.tensorflow.org/install/install_linux#InstallingNativePip   
 https://www.tensorflow.org/install/install_linux#TF_PYTHON_URL  
 
+    sudo apt update
     sudo apt install python-pip python-dev
     sudo pip  install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.0.1-cp27-none-linux_x86_64.whl
 
