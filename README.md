@@ -10,6 +10,7 @@ This example was built and tested on c9.io or cs50.io as they provide a free Ubu
 Install tensorflow using pip    
 https://www.tensorflow.org/install/install_linux#InstallingNativePip   
 https://www.tensorflow.org/install/install_linux#TF_PYTHON_URL  
+Paste the commands individually in to a Terminal:   
 
     sudo apt update
     sudo apt install python-pip python-dev
