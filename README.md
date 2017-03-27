@@ -11,9 +11,8 @@ Install tensorflow using pip
 https://www.tensorflow.org/install/install_linux#InstallingNativePip   
 
     sudo apt update     
-    sudo apt install python-pip
-    pip install numpy  
-    pip install tensorflow
+    sudo apt install python-pip python-dev
+    pip install numpy tensorflow
 
 Download (clone) git repo    
 
