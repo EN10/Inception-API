@@ -23,7 +23,9 @@ Download (clone) models git repo:
 Test it works using the built-in image:  
 
     python models/tutorials/image/imagenet/classify_image.py
-    
+
+View panda test image:    
+
     cp /tmp/imagenet/cropped_panda.jpg cropped_panda.jpg
 
 Enio's classify image from URL Node API:   
