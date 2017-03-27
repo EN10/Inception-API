@@ -7,7 +7,9 @@ Thankfully Google has released the trained model, which means it can be used aft
 
 This example was built and tested on c9.io or cs50.io as they provide a free Ubuntu VM (docker container) with 512MB RAM and 2GB Disk.
 
-Install tensorflow using pip:    
+Install
+-
+Install tensorflow using pip: 
 https://www.tensorflow.org/install/install_linux#InstallingNativePip   
 https://www.tensorflow.org/install/install_linux#TF_PYTHON_URL  
 Paste the commands individually in to a Terminal:   
@@ -20,6 +22,9 @@ Download (clone) models git repo:
 
     git clone https://github.com/tensorflow/models.git
 
+Run Model
+-
+
 Test it works using the built-in image:  
 
     python models/tutorials/image/imagenet/classify_image.py
@@ -27,6 +32,13 @@ Test it works using the built-in image:
 View panda test image:    
 
     cp /tmp/imagenet/cropped_panda.jpg cropped_panda.jpg
+
+Test on another image:  
+
+    python models/tutorials/image/imagenet/classify_image.py --image_file image.jpg
+
+Make API
+-
 
 Enio's classify image from URL Node API:   
 
