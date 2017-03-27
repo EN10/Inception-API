@@ -9,7 +9,7 @@ var dl = 'curl ' + req.query.q + ' > image.jpg';
     });
 
 var cmd = 'python \
-~/workspace/tensorflow/tensorflow/models/image/imagenet/classify_image.py \
+~/workspace/models/tutorials/image/imagenet/classify_image.py \
 --image_file image.jpg';
     exec(cmd, function(error, stdout, stderr) {
         res.end(stdout);
