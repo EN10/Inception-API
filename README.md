@@ -37,4 +37,4 @@ image url is a parameter of page url i.e.
     https://inception-eniof.cs50.io/?q=http://kingofwallpapers.com/images/images-169.jpg
 
 script executes this:
-    https://github.com/tensorflow/tensorflow/blob/master/tensorflow/models/image/imagenet/classify_image.py
+    https://github.com/tensorflow/models/blob/master/tutorials/image/imagenet/classify_image.py
