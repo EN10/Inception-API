@@ -7,7 +7,7 @@ Thankfully Google has released the trained model, which means it can be used aft
 
 This example was built and tested on c9.io or cs50.io as they provide a free Ubuntu VM (docker container) with 512MB RAM and 2GB Disk.
 
-Install tensorflow using pip    
+Install tensorflow using pip:    
 https://www.tensorflow.org/install/install_linux#InstallingNativePip   
 https://www.tensorflow.org/install/install_linux#TF_PYTHON_URL  
 Paste the commands individually in to a Terminal:   
@@ -16,7 +16,7 @@ Paste the commands individually in to a Terminal:
     sudo apt install python-pip python-dev
     sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.0.1-cp27-none-linux_x86_64.whl
 
-Download (clone) models git repo    
+Download (clone) models git repo:    
 
     git clone https://github.com/tensorflow/models.git
 
@@ -26,7 +26,7 @@ Test it works using the built-in image:
     
     cp /tmp/imagenet/cropped_panda.jpg cropped_panda.jpg
 
-Enio's classify image from URL Node API   
+Enio's classify image from URL Node API:   
 
     npm install express     
 (required to run web.js)    
