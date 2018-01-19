@@ -46,7 +46,7 @@ image url is a parameter of page url
 
 web.js: downloads image using curl then calls classify_image.py on it
 
-#### Software Versions:
+### Software Versions:
 
 | App | Version |
 | ----- | ----- |
