@@ -21,11 +21,10 @@ Run Model
 
 Make API
 -
+**Classify images from URL Node API:**   
 
-Classify images from URL Node API:   
 Example:
-
-* https://inception-eniof.cs50.io/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg
+* https://inception-eniof.cs50.io/?q=http://saxony-blue.com/data/out/86/5918348-image.jpg   
 
 image url is a parameter of page url   
 
