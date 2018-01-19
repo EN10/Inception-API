@@ -1,8 +1,9 @@
-# Inception API
+# Inception Web API
 
-### API for Google Tensorflow Inception Model
+### Web API for Google Tensorflow Inception Model
 
-Based on [Quick and Simple Image Recognition](https://github.com/EN10/SimpleInception)
+* Based on [Quick and Simple Image Recognition](https://github.com/EN10/SimpleInception)  
+* More Info on [Inception](https://github.com/EN10/KerasInception)
 
 Install
 -
@@ -46,11 +47,12 @@ image url is a parameter of page url
 
 web.js: downloads image using curl then calls classify_image.py on it
 
-### Software Versions:
+### C9 Software Versions:
 
-| App | Version |
+| Software | Version |
 | ----- | ----- |
 | Ubuntu | 14.04.3 |
+| Python | 2.7.6 |
 | pip | 9.0.1 |
 | tensorflow | 1.4.1 |
 | node | 4.6.1 |
