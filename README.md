@@ -32,6 +32,10 @@ image url is a parameter of page url
 
     wget https://raw.githubusercontent.com/EN10/InceptionAPI/master/web.js
 
+**Install Node:**
+
+    sudo apt install node
+
 **Install Webserver:**  
 
     npm install express     
