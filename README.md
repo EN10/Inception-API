@@ -45,3 +45,13 @@ image url is a parameter of page url
     node web.js
 
 web.js: downloads image using curl then calls classify_image.py on it
+
+#### Software Versions:
+
+| App | Version |
+| ----- | ----- |
+| Ubuntu | 14.04.3 |
+| pip  | 9.0.1 |
+| tensorflow  | 1.4.1 |
+| node  | 4.6.1 |
+| express  | 2.15.9 |
