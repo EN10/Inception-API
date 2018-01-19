@@ -9,7 +9,7 @@ var dl = 'curl ' + req.query.q + ' > image.jpg';
     });
 
 var cmd = 'python \
-~/workspace/models/tutorials/image/imagenet/classify_image.py \
+/home/ubuntu/workspace/classify_image.py \
 --image_file image.jpg';
     exec(cmd, function(error, stdout, stderr) {
         res.end(stdout);
@@ -18,5 +18,5 @@ var cmd = 'python \
 });
 
 app.listen(process.env.PORT, function() {
-    console.log("server runnning");
+    console.log("server running");
 });
