@@ -1,6 +1,6 @@
-# Inception Web API
+# Inception Node API
 
-### Web API for Google Tensorflow Inception Model
+### Node.js API for Google Tensorflow Inception Model
 
 * Based on [Quick and Simple Image Recognition](https://github.com/EN10/SimpleInception)  
 * More Info on [Inception](https://github.com/EN10/KerasInception)
